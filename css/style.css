@@ -1,47 +1,40 @@
-    .nav {
-        width: 50%;
-        margin-left: auto;
-    }
-    .nav li {
-        display: inline-block;
-        vertical-align: top;
-    }
-
-    .logo {
-        width: 23%;
-        padding: 1%;
-        text-align: center;
-    }
-
-    .heroImg {
-        height: 600px;
-        padding: 25px;
-    }
-    .content {
-        width: 500px;
-        margin: 0 auto;
-    }
-
-    .footer {
-        background-color: #373738;
-        padding: 20%;
-
-    }
-    .ul {
-        display: inline-block;
-        vertical-align: top;
-    }
-/* CSS for My UI Skills section */
-.flexContainer {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
-    padding: 20%;
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.skill {
-    width: 33%;
+/* Header Styles */
+.nav {
+    width: 50%;
+    margin-left: auto;
+}
+
+.nav li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
     text-align: center;
-    border: 1px solid #ddd;
-    padding: 10px;
+}
+
+/* Hero Section Styles */
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+/* Main Content Styles */
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #373738;
+    padding: 20px;
 }
