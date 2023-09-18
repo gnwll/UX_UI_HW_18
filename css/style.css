@@ -38,3 +38,18 @@ body {
     background-color: #373738;
     padding: 20px;
 }
+
+/* Skills Section Styles */
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+
+.skill {
+    width: 33%;
+    text-align: center;
+    border: 1px solid rgb(52, 52, 116);
+    padding: 10px;
+}
