@@ -31,3 +31,17 @@
         display: inline-block;
         vertical-align: top;
     }
+/* CSS for My UI Skills section */
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20%;
+}
+
+.skill {
+    width: 33%;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
