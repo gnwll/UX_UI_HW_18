@@ -53,3 +53,19 @@ body {
     border: 1px solid rgb(52, 52, 116);
     padding: 10px;
 }
+
+/* Work Section Styles */
+.workGrid {
+    display: grid;
+    grid-template-areas: 
+    "project1 project2";
+    grid-gap: 20px;
+}
+
+.project:nth-child(1) {
+    grid-area: Questline;
+}
+
+.project:nth-child(2) {
+    grid-area: VFW rework;
+}
